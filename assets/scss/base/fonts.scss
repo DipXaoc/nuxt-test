@@ -1,0 +1,27 @@
+/*@include font-face('WW3 Inktrap', '../fonts/WW3_Inktrap_Regular', 500);
+@include font-face('WW3 Inktrap', '../fonts/WW3_Inktrap_Bold', bold);
+@include font-face('WW3 Sans', '../fonts/WW3_Sans_Regular', 500);
+@include font-face('WW3 Sans', '../fonts/WW3_Sans_Bold', bold);*/
+@font-face {
+  font-family: "WW3 Inktrap";
+  src: local("WW3 Inktrap"),
+  url(~assets/fonts/WW3_Inktrap_Regular.ttf) format("woff");
+}
+
+@font-face {
+  font-family: "WW3 Inktrap";
+  src: local("WW3 Inktrap"),
+  url(~assets/fonts/WW3_Inktrap_Bold.ttf) format("woff");
+}
+
+@font-face {
+  font-family: "WW3 Sans";
+  src: local("WW3 Sans"),
+  url(~assets/fonts/WW3_Sans_Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "WW3 Sans";
+  src: local("WW3 Sans"),
+  url(~assets/fonts/WW3_Sans_Bold.woff) format("woff");
+}
